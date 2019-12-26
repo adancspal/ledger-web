@@ -5,8 +5,13 @@
 <h2>Web USB Demo - Using U2F</h2>
 <p id="demo"></p>
 <script type="module" src="bundle.js"></script>
-<button onclick="getTezosAddressFromLedger().then((result) => {
+<h3>U2F</h3>
+<button onclick="getAddressU2F().then((result) => {
         document.getElementById('demo').innerHTML = 'Completed'
-    })">Show TZ1 address from connected Ledger (look at device's screen)</button>
+    })">Show TZ1 address - U2F Transport - Look at device's screen</button>
+<h3>WEB USB</h3>
+<button onclick="getAddressWEB().then((result) => {
+        document.getElementById('demo').innerHTML = 'Completed'
+    })">Show TZ1 address - WEB USB Transport - Look at device's screen</button>
 </body>
 </html>
