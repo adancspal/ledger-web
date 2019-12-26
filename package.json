@@ -1,0 +1,27 @@
+{
+  "name": "webusb-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ledgerhq/hw-transport-webusb": "^5.2.0",
+    "@ledgerhq/hw-transport-u2f": "^5.2.0",
+    "@obsidiansystems/hw-app-xtz": "^4.72.3",
+    "@ledgerhq/hw-app-eth": "^4.70.2",
+    "local-web-server": "^3.0.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^10.0.0"
+  }
+}

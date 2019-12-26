@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Web USB Demo</h2>
+<p id="demo"></p>
+<script type="module" src="bundle.js"></script>
+<button onclick="getTezosAddressFromLedger().then((result) => {
+        document.getElementById('demo').innerHTML = result
+    })">Click me! </button>
+
+</body>
+</html>
