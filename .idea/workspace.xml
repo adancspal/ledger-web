@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b5003c-ab08-4416-92f3-a020b4da8ef1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,11 +50,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577355162924</updated>
-      <workItem from="1577355164296" duration="12514000" />
+      <workItem from="1577355164296" duration="12898000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="624" y="240" key="run.anything.popup" timestamp="1577368862891">
+      <screen x="0" y="27" width="1920" height="1000" />
+    </state>
+    <state x="624" y="240" key="run.anything.popup/0.27.1920.1000@0.27.1920.1000" timestamp="1577368862891" />
   </component>
 </project>
