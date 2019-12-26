@@ -2,8 +2,8 @@
 // const Transport = require('@ledgerhq/hw-transport-webusb').default
 require("babel-core/register");
 require("babel-polyfill");
-// const AppXtz = require('@obsidiansystems/hw-app-xtz').default
-const AppXtz = require('@ledgerhq/hw-app-eth').default
+const AppXtz = require('@obsidiansystems/hw-app-xtz').default
+// const AppXtz = require('@ledgerhq/hw-app-eth').default
 const Transport = require('@ledgerhq/hw-transport-u2f').default
 // const Transport = require('@ledgerhq/hw-transport-node-hid').default
 // const Transport = require('@ledgerhq/hw-transport-webusb').default
@@ -31,8 +31,8 @@ window.getTezosAddressFromLedger = async function() {
     // Get the address
     let result
     try {
-        // result = await xtz.getAddress(derivationPath, true, curve)
-        result = await xtz.getAddress("44'/60'/0'/0/0")
+        result = await xtz.getAddress(derivationPath, true, curve)
+        // result = await xtz.getAddress("44'/60'/0'/0/0")
     } catch(e) {
         result = e
     }
