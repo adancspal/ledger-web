@@ -15,7 +15,8 @@
     "@obsidiansystems/hw-app-xtz": "^4.72.3",
     "bs58check": "^2.1.2",
     "libsodium-wrappers": "^0.7.6",
-    "local-web-server": "^3.0.7"
+    "local-web-server": "^3.0.7",
+    "mocha": "^7.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",

@@ -16,6 +16,9 @@ const TransportWEB = require('@ledgerhq/hw-transport-webusb').default;
 window.getAddressU2F = async function () {
   const curve = 0;
   const derivationPath = "44'/1729'/0'/0'";
+  const derivationPath2 = "44'/1729'/0'/1'";
+  const derivationPath3 = "44'/1729'/0'/2'";
+  const derivationPath4 = "44'/1729'/0'/3'";
   let transport;
   const devices = await TransportU2F.list();
   console.log('Devices: ');
@@ -34,15 +37,24 @@ window.getAddressU2F = async function () {
   const xtz = new AppXtz(transport); // Get the address
 
   let result;
+  let result2;
+  let result3;
+  let result4;
 
   try {
     result = await xtz.getAddress(derivationPath, true, curve);
+    result2 = await xtz.getAddress(derivationPath2, true, curve);
+    result3 = await xtz.getAddress(derivationPath3, true, curve);
+    result4 = await xtz.getAddress(derivationPath4, true, curve);
   } catch (e) {
     result = e;
   }
 
   console.log('We got this PK from the device: ');
   console.log(result);
+  console.log(result2);
+  console.log(result3);
+  console.log(result4);
   return result;
 };
 
