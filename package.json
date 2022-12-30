@@ -16,7 +16,7 @@
     "bs58check": "^2.1.2",
     "libsodium-wrappers": "^0.7.6",
     "local-web-server": "^3.0.7",
-    "mocha": "^7.0.1"
+    "mocha": "^10.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
